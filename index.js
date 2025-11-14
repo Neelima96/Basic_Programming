@@ -1,4 +1,3 @@
-
 function isPrime(num) {
     if (num <= 1) {
         return false;
@@ -18,4 +17,24 @@ if(isPrime(9))
 else
 {
   console.log(`Not a prime num`);
+}
+
+
+
+function evenOdd(num) {
+        if (num % 2 === 0)
+        {
+            return true; 
+        }
+        else{
+          return false;
+        }
+}
+if(evenOdd(8))
+{
+  console.log(`Even num`);
+}
+else
+{
+  console.log(`Odd num`);
 }
